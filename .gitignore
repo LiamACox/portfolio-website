@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Leave out for now
+README.md
+
+# Webstorm folder
+.idea
