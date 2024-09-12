@@ -17,10 +17,10 @@ export default function Navbar() {
                 <Link href="/" className="hover:underline">LIAMC.XYZ</Link>
             </div>
             <div className="flex-1 flex place-content-center space-x-20">
-                <Link href={'https://linkedin.com'} target="_blank" rel="noopener noreferrer">
+                <Link href={'https://www.linkedin.com/in/liamac/'} target="_blank" rel="noopener noreferrer">
                     <Image src={LinkedInIcon} alt="My LinkedIn" width={64} height={64}/>
                 </Link>
-                <Link href={'https://github.com'} target="_blank" rel="noopener noreferrer">
+                <Link href={'https://github.com/LiamACox'} target="_blank" rel="noopener noreferrer">
                     <Image src={GithubIcon} alt="My Github" width={64} height={64}/>
                 </Link>
                 <Link href={'mailto:coxx9803@mylaurier.ca'} className="invert">
