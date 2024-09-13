@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Viewport } from 'next'
 import "./globals.css";
 
 import { Handjet } from 'next/font/google';
@@ -11,6 +12,11 @@ const handjet = Handjet({
 export const metadata: Metadata = {
 
 };
+
+export const viewport: Viewport = {
+    width: 'device-width',
+    initialScale: 1,
+}
 
 export default function RootLayout({
   children,
