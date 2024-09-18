@@ -2,13 +2,6 @@ import type { Metadata } from "next";
 import type { Viewport } from 'next'
 import "./globals.css";
 
-import { Handjet } from 'next/font/google';
-
-const handjet = Handjet({
-    subsets: ['latin'],
-    display: 'swap',
-});
-
 export const metadata: Metadata = {
 
 };
@@ -24,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={handjet.className}>
+    <html lang="en">
       <body>
         {children}
       </body>

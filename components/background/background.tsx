@@ -2,7 +2,7 @@ import Starfield from 'react-starfield';
 
 export default function Background() {
     return (
-        <div className="fixed -z-1">
+        <div className="bg-fixed z-0 inset-0">
             <Starfield
                 starCount={1000}
                 starColor={[255, 255, 255]}
